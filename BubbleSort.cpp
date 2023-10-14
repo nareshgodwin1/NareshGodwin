@@ -41,10 +41,18 @@ int main() {
         array[i] = value;
     }
 
+    Linput += 1;
+    
     bubblesort(array, Linput);
 
-    for (int k = 0; k < Linput-1; k++)
+    int k = 0; 
+
+    for (; k < Linput-1; k++){
         std::cout << array[k];
+        if (k < Linput-2){
+            std::cout << ", ";
+        }
+    }
 
     return 0;
 }
