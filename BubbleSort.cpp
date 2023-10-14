@@ -22,7 +22,7 @@ int main() {
     int input;{};
     int Linput = 0;
   
-    std::cout << "Enter a 5 to 9 digit number: ";  
+    std::cout << "Enter a list of digits you wish to be sorted: ";  
     std::cin >> input;
 
     for (int i = input; i >= 1;){
